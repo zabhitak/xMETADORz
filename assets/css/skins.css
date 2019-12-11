@@ -1,0 +1,74 @@
+.primary {
+    color: #9600f4
+}
+
+a.primary-hover:hover {
+    color: #9600f4
+}
+
+.primary-back {
+    background-color: #9600f4
+}
+
+a.primary-back-hover:hover,
+.btn-default.primary-back-hover:hover {
+    background-color: #9600f4
+}
+
+.primary-hover-border:hover {
+    border-color: #9600f4
+}
+
+.primary-2-back {
+    background-color: #7100B7
+}
+
+.st-nav-trigger {
+    box-shadow: 0 0 10px #7100B7
+}
+
+.st-nav-trigger span {
+    background-color: #7100B7
+}
+
+.st-nav-trigger.menu-is-open span::before,
+.st-nav-trigger.menu-is-open span::after {
+    background-color: #7100B7
+}
+
+.primary-2-box-shadow {
+    box-shadow: 0 0 10px #7100B7!important
+}
+
+.primary-3 {
+    color: #B649FF
+}
+
+.secondary {
+    color: #00F2FF
+}
+
+.secondary-hover:hover {
+    color: #00F2FF
+}
+
+.main-gradient {
+    background-image: -webkit-linear-gradient(left, #00F2FF, #7100B7 100%);
+    background-image: linear-gradient(to right, #00F2FF, #7100B7 100%)
+}
+
+.image-gradient {
+    background-image: -webkit-linear-gradient(left, #7100B7, #00F2FF 100%);
+    background-image: linear-gradient(to right, #7100B7, #00F2FF 100%)
+}
+
+.skill-bar-gradient {
+    background-image: -webkit-linear-gradient(left, #00BBFF, #D42BFF 100%);
+    background-image: linear-gradient(to right, #00BBFF, #D42BFF 100%)
+}
+
+.button-gradient {
+    background-image: -webkit-linear-gradient(left, #00F2FF, #00BBFF 100%);
+    background-image: linear-gradient(to right, #00F2FF, #00BBFF 100%);
+    border: 1px solid #00F2FF
+}

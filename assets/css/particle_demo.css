@@ -1,0 +1,428 @@
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-y: scroll;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none
+}
+
+.header-section {
+    height: 430px;
+    background: url(../images/hero-dark.jpg)
+}
+
+.header-headline {
+    text-align: center;
+    width: 500px;
+    margin: 200px auto 130px
+}
+
+.header-headline h2 {
+    line-height: 44px;
+    font-size: 38px;
+    color: #FFF
+}
+
+.header-headline h2 span {
+    color: #9600f4;
+    font-weight: 700
+}
+
+.theme-selection {
+    min-height: 1240px
+}
+
+.theme-selection .col-lg-12 {
+    text-align: center
+}
+
+.theme-selection .img-responsive {
+    display: inline-block
+}
+
+.light-theme,
+.dark-theme,
+.video-theme-dark,
+.video-theme-light,
+.yt-theme-dark,
+.yt-theme-light {
+    display: inline-block
+}
+
+.yt-theme-dark {
+    margin-bottom: 80px;
+}
+.hvr-bob,
+.headline {
+    display: block
+}
+
+.headline {
+    line-height: 30px;
+    font-size: 27px;
+    color: #000;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s
+}
+
+.headline:hover {
+    color: #9600f4
+}
+
+.headline span {
+    font-weight: 700
+}
+
+@-webkit-keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px)
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+@keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px)
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+@-webkit-keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+.hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate
+}
+
+footer {
+    height: 140px;
+    background-color: #0c161e;
+    text-align: center;
+    padding-top: 60px;
+    clear: both
+}
+
+footer p {
+    color: #697982;
+    font-size: 14px;
+    line-height: 17px
+}
+
+footer p a {
+    color: #87A1AD;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #9600f4
+}
+
+.style-switcher {
+    width: 340px;
+    height: 300px;
+    position: fixed;
+    top: 10%;
+    left: -260px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 9999
+}
+
+.style-switcher.open {
+    left: 0
+}
+
+.style-switcher .color-chooser {
+    display: inline-block;
+    width: 260px;
+    height: 640px;
+    background-color: #fff;
+    float: left;
+    padding: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .22)
+}
+
+.style-switcher .color-chooser .style-heading {
+    height: 70px;
+    padding: 20px 0 26px;
+    background-color: #808d99;
+    text-align: center
+}
+
+.style-heading p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFF;
+    margin: 0
+}
+
+.style-switcher .color-chooser .colors-list {
+    height: 561px;
+    list-style: none;
+    padding: 25px 30px 30px;
+    margin: 0;
+    background-color: #f1f2f2
+}
+
+.style-switcher .color-chooser ul li {
+    height: 60px
+}
+
+.colors-list li p {
+    margin-bottom: 3px;
+    margin-top: 10px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1)
+}
+
+.colors-list li .btn {
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #808d99;
+    color: #FFF;
+    border: none;
+    display: block;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.colors-list li .btn:hover,
+.modal-footer .btn:hover {
+    background-color: #7100B7
+}
+
+.colors-list li button {
+    margin-right: 4px;
+    margin-top: 18px
+}
+
+.colors-list li a {
+    margin-top: 6px
+}
+
+.color-picker label {
+    width: 120px;
+    display: block
+}
+
+.color-picker .color-picker-inputs {
+    display: inline-block;
+    margin-right: 0;
+    width: 30px
+}
+
+.color-picker .color-picker-hex {
+    display: inline-block;
+    width: 100px;
+    height: 30px
+}
+
+.style-switcher .gear {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #E5E5E5;
+    padding: 10px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: -webkit-linear-gradient(top, #FFFFFF, #DDDDDD 100%);
+    background: linear-gradient(to bottom, #FFFFFF, #DDDDDD 100%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .22)
+}
+
+.style-switcher .gear:hover {
+    cursor: pointer
+}
+
+.style-switcher .gear .fa {
+    color: #848484;
+    font-size: 28px;
+    line-height: 30px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    text-shadow: 1px 0 0 #000
+}
+
+.style-switcher .gear:hover .fa {
+    color: #4f4f4f
+}
+
+.style-switcher .slow-spin {
+    -webkit-animation: fa-spin 6.5s infinite linear;
+    animation: fa-spin 6.5s infinite linear
+}
+
+#style-modal {
+    z-index: 9999
+}
+
+#style-modal .modal-body pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    background-color: #0c161e
+}
+
+#style-modal .modal-body code {
+    color: #FFF;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px
+}
+
+#style-modal .modal-body code .value {
+    color: #00F2FF
+}
+
+#style-modal .modal-body code .comment {
+    color: #9600f4
+}
+
+.modal-footer .btn {
+    height: 35px;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #808d99;
+    color: #FFF;
+    border: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+.colorpicker-saturation {
+    width: 140px;
+    height: 140px
+}
+
+.colorpicker-hue,
+.colorpicker-alpha {
+    width: 20px;
+    height: 140px
+}
+
+.colorpicker-color,
+.colorpicker-color div {
+    height: 20px
+}
+
+@media only screen and (max-width:1200px) {
+    .dark-theme .headline {
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .style-switcher {
+        display: none
+    }
+    .header-headline {
+        width: 100%
+    }
+    .header-headline h2 {
+        line-height: 40px;
+        font-size: 34px
+    }
+}
+
+@media only screen and (max-width:590px) {
+    .header-headline {
+        margin-top: 140px
+    }
+}
