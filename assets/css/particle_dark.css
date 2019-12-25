@@ -1536,6 +1536,14 @@ footer p a {
     background-size: cover;
     position: relative;
 }
+#difesagadget {
+    height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    background: url(../images/difesagadget.jpg) 100% 100% fixed;
+    background-size: cover;
+    position: relative;
+}
 
 .portfolio-item .container-fluid,
 .portfolio-item .row,
