@@ -28,7 +28,7 @@ Contains some cool projects along with team members details and various cool cus
 
 ## Example Images
 
-* Home Page ![alt text](https://github.com/zabhitak/IIT-Bomay-Swarksha/blob/master/Screenshots/home.png)
-* Team ![alt text](https://github.com/zabhitak/IIT-Bomay-Swarksha/blob/master/Screenshots/team.png)
-* Projects ![alt text](https://github.com/zabhitak/IIT-Bomay-Swarksha/blob/master/Screenshots/pro.png)
+* Home Page ![alt text](https://github.com/zabhitak/xMETADORz/blob/master/Screenshots/home.png)
+* Team ![alt text](https://github.com/zabhitak/xMETADORz/blob/master/Screenshots/team.png)
+* Projects ![alt text](https://github.com/zabhitak/xMETADORz/blob/master/Screenshots/pro.png)
 
